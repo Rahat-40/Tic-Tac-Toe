@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(#AA076B,#61045F);
+
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+#container h2{
+    margin-top: 1rem;
+    color: rgb(85, 246, 4);
+    font-size: 2rem;
+}
+#container h1{
+    color: rgb(17, 0, 255);
+    font-size: 3rem;
+}
+#game-div{
+    width: 60vmin;
+    height: 70vmin;
+    position: relative;
+
+}
+.allbtn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+    align-items: center; 
+}
+.hidebtndiv{
+ display: none;
+}
+.clkbtn{
+    width:18vmin;
+    height:18vmin;
+    font-size: 4rem;
+    color: red;
+    background:linear-gradient(#616161,#9bc5c3);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+}
+.Yellow{
+    background:linear-gradient(#4b6cb7,#182848);
+   color: rgb(22, 255, 22);
+}
+.Blue{
+    background:linear-gradient(#061700,#52c234);
+    color: rgb(252, 4, 16);
+ }
+
+.resetdiv{
+    height: 10vmin;
+    position: relative;
+
+}
+.hideResetDiv{
+   display:none;
+}
+#reset{
+    padding: .5rem 1.5rem;
+    color: #f1f904;
+    background:linear-gradient(#4b086d,#acc0fe);
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+}
+
+.game_result{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.show{
+    display:none;
+
+}
+#prize_img{
+    height: 40vmin;
+
+}
+
+.game_result img{
+    width: 100%;
+    height: 100%;
+}
+#result_contant{
+    height: 20vmin;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}
+.result_msg{
+    color: rgb(37, 251, 4);
+    font-size: 1.5rem;
+}
+.newGame{
+    padding: .5rem 1.5rem;
+    background:linear-gradient(#4b086d,#acc0fe);
+    color: #f1f904;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+}
+
